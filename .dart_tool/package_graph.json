@@ -1,10 +1,10 @@
 {
   "roots": [
-    "logger"
+    "simple_logger"
   ],
   "packages": [
     {
-      "name": "logger",
+      "name": "simple_logger",
       "version": "1.0.0",
       "dependencies": [
         "flutter",

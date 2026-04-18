@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:logger/logger.dart';
+import 'package:simple_logger/logger.dart';
 
 enum TestFeature { featureA, featureB, featureC }
 
