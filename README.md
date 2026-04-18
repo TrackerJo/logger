@@ -23,14 +23,14 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  logger:
-    path: ../logger
+  custom_logger:
+    path: custom_logger: ^1.0.0
 ```
 
 Then import:
 
 ```dart
-import 'package:logger/logger.dart';
+import 'package:custom_logger/custom_logger.dart';
 ```
 
 ## Usage
@@ -96,9 +96,3 @@ Remember to dispose the broadcast stream when the owner goes away:
 ```dart
 await logger.dispose();
 ```
-
-## Additional information
-
-Defaults are chosen so that a bare `Logger()` logs nothing — both
-`isDebugMode` and `isDeveloper` must be opted in. Wire `isDebugMode` to
-`kDebugMode` to get console output only in debug builds.
