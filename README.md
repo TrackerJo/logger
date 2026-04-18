@@ -23,8 +23,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  custom_logger:
-    path: custom_logger: ^1.0.0
+  custom_logger: ^1.0.1
 ```
 
 Then import:
