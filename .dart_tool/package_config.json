@@ -158,7 +158,7 @@
       "languageVersion": "3.5"
     },
     {
-      "name": "simple_logger",
+      "name": "custom_logger",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.11"

@@ -1,4 +1,4 @@
-# logger
+# Custom Logger
 
 A lightweight, filterable logger for Flutter packages. Tag each message with
 one or more values from your own feature enum, then narrow what you see at
