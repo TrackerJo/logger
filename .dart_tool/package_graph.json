@@ -5,7 +5,7 @@
   "packages": [
     {
       "name": "logger",
-      "version": "0.0.1",
+      "version": "1.0.0",
       "dependencies": [
         "flutter",
         "stack_trace"

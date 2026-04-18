@@ -1,6 +1,6 @@
 name: logger
-description: "A new Flutter package project."
-version: 0.0.1
+description: "A lightweight, filterable logger for Flutter packages. Tag messages with a feature enum and filter by feature, id, type, or caller."
+version: 1.0.0
 repository: https://github.com/TrackerJo/logger
 
 environment:
